@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<View
+    style="@style/HorizontalLine"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/playing"
+        style="@style/MenuButton"
+        android:text="@string/category_playing" />
+
+    <View
+        style="@style/VerticalLine"/>
+
+    <Button
+        android:id="@+id/search"
+        style="@style/MenuButton"
+        android:text="@string/category_search" />
+
+    <View
+        style="@style/VerticalLine"/>
+
+    <Button
+        android:id="@+id/playlist"
+        style="@style/MenuButton"
+        android:text="@string/category_playlist" />
+
+    <View
+        style="@style/VerticalLine"/>
+
+    <Button
+        android:id="@+id/albums"
+        style="@style/MenuButton"
+        android:text="@string/category_albums" />
+
+    <View
+        style="@style/VerticalLine"/>
+
+    <Button
+        android:id="@+id/artists"
+        style="@style/MenuButton"
+        android:text="@string/category_artists" />
+
+    <View
+        style="@style/VerticalLine"/>
+
+    <Button
+        android:id="@+id/store"
+        style="@style/MenuButton"
+        android:text="@string/category_store" />
+
+</LinearLayout>
+
+<View
+    style="@style/HorizontalLine"/>
+
+</FrameLayout>

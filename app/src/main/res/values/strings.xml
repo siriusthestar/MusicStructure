@@ -1,0 +1,40 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">NG\'s Music Structure</string>
+
+    <!-- Category name for Playing [CHAR LIMIT=20] -->
+    <string name="category_playing">Playing</string>
+
+    <!-- Category name for Search [CHAR LIMIT=20] -->
+    <string name="category_search">Search</string>
+
+    <!-- Category name for Playlist [CHAR LIMIT=20] -->
+    <string name="category_playlist">Playlist</string>
+
+    <!-- Category name for Albums [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for Artists [CHAR LIMIT=20] -->
+    <string name="category_artists">Artists</string>
+
+    <!-- Category name for Store [CHAR LIMIT=20] -->
+    <string name="category_store">Store</string>
+
+    <!-- Playing text -->
+    <string name="playing">Playing screen description:\n\n\nThis screen shows the song currently playing, artist\'s and album name. It should also show photo of the album.\n\nBelow the info are playback buttons.</string>
+
+    <!-- Search text -->
+    <string name="search">Search screen description:\n\n\nThis screen shows the line for entering desired search term and a search icon on the right side.\n\nTyping into this field app gives song ideas from the playlist.</string>
+
+    <!-- Playlist text -->
+    <string name="playlist">Playlist screen description:\n\n\nThis screen shows available playlists in the library.\n\nChosen playlist shows songs in the playlist. It should also show song photos.</string>
+
+    <!-- Albums text -->
+    <string name="albums">Albums screen description:\n\n\nThis screen shows available albums in a playlist.\n\nIt should also show album photos.</string>
+
+    <!-- Artists text -->
+    <string name="artists">Artists screen description:\n\n\nThis screen shows all artists from all playlists.\n\nClicking on the artist user receives a list of artist\'s available albums or songs.</string>
+
+    <!-- Store text -->
+    <string name="store">Store screen description:\n\n\nThis screen shows list of albums which can be bought. Album list contains artist\'s and album name and album photo.\n\nIt also contains BUY button below each album name which guides the user to the page where he can enter his credit card data.</string>
+</resources>
